@@ -8,11 +8,11 @@ const app = express();
 const articles = [];
 
 
-const newspapers = [
+const newspapers = [    
     {
         name: "guardian",
         address: "https://www.theguardian.com/environment/climate-crisis",
-        base: ""
+        base: ""  
     },
     {
         name: "thetimes",
@@ -204,7 +204,8 @@ app.get('/news/:newspaperId', (req, res) => {
                 const url = $(this).attr('href');
                 specificArticle.push({
                     title,
-                    url: newspaperBase + url
+                    url: newspaperBase + url,
+                    source: newspaperId  
                 })
             })
             res.json(specificArticle)
