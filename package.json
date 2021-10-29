@@ -1,0 +1,39 @@
+{
+  "name": "climatechange-api",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000c\u0000l\u0000i\u0000m\u0000a\u0000t\u0000e\u0000c\u0000h\u0000a\u0000n\u0000g\u0000e\u0000n\u0000e\u0000w\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodEm9/climatechangenews.git"
+  },
+  "keywords": [
+    "express",
+    "cheerio",
+    "app",
+    "$"
+  ],
+  "author": "Emmanuel Nodolomwanyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NodEm9/climatechangenews/issues"
+  },
+  "homepage": "https://github.com/NodEm9/climatechangenews#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
+  }
+}
